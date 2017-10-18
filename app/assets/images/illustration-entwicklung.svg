@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" hola_ext_inject="disabled">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>illustration-entwicklung</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="70" cy="70" r="70"/>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.35 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="74.3689904%" y2="70.7361356%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"/>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <linearGradient x1="7.69819707%" y1="0%" x2="38.5456255%" y2="69.1942859%" id="linearGradient-7">
+            <stop stop-color="#000000" offset="0%"/>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="0%"/>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="page-home" sketch:type="MSArtboardGroup" transform="translate(-880.000000, -1370.000000)">
+            <g id="illustration-entwicklung" sketch:type="MSLayerGroup" transform="translate(880.000000, 1370.000000)">
+                <mask id="mask-2" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-1"/>
+                </mask>
+                <use id="Mask" fill="#47227F" sketch:type="MSShapeGroup" xlink:href="#path-1"/>
+                <path d="M36,119 L28,147 L71,147 L63,119 L36,119 Z" id="Path-214" fill="#E0E0E0" sketch:type="MSShapeGroup" mask="url(#mask-2)"/>
+                <rect id="Rectangle-43" fill="#E0E0E0" filter="url(#filter-3)" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-20" y="26" width="140" height="97" rx="10"/>
+                <rect id="Rectangle-43-Copy" fill="#303030" filter="url(#filter-4)" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-12" y="35" width="130" height="71"/>
+                <path d="M66,35 L-9.00375262,35 C-10.6523438,35 -12,36.3455778 -12,38.005432 L-12,102.994568 C-12,104.660701 -10.6585344,106 -9.00375262,106 L21.625,106 L66,35 Z" id="Rectangle-43-Copy-2" opacity="0.5" fill="url(#linearGradient-5)" filter="url(#filter-6)" sketch:type="MSShapeGroup" mask="url(#mask-2)"/>
+                <path d="M34,123 L63.8412466,152.841247 L98.341364,152.841247 L68.7490032,123.248886 L34,123 Z" id="Path-215" opacity="0.2" fill="url(#linearGradient-7)" sketch:type="MSShapeGroup" mask="url(#mask-2)"/>
+                <g id="Group" mask="url(#mask-2)" sketch:type="MSShapeGroup">
+                    <g transform="translate(18.000000, 44.000000)">
+                        <rect id="Rectangle-46" fill="#3DA7F4" x="0" y="0" width="62" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-9" fill="#FAE493" x="0" y="24" width="62" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy" fill="#FAE493" x="0" y="6" width="19.375" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-2" fill="#FCA7A1" x="21.3125" y="6" width="9.6875" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-3" fill="#E6F3FF" x="32.9375" y="6" width="29.0625" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-8" fill="#3DA7F4" x="0" y="18" width="8.71875" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-7" fill="#E6F3FF" x="11.625" y="18" width="31" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-6" fill="#FCA7A1" x="44.5625" y="18" width="17.4375" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-4" fill="#3DF43E" x="0" y="12" width="44.5625" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-18" fill="#FAE493" x="0" y="49" width="62" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-17" fill="#FAE493" x="0" y="31" width="19.375" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-15" fill="#FFE6E6" x="47.46875" y="37" width="14.53125" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-14" fill="#E6F3FF" x="32.9375" y="31" width="29.0625" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-13" fill="#3DA7F4" x="0" y="43" width="8.71875" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-12" fill="#E6F3FF" x="11.625" y="43" width="31" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-11" fill="#FCA7A1" x="44.5625" y="43" width="17.4375" height="2" rx="2"/>
+                        <rect id="Rectangle-46-Copy-10" fill="#3DF43E" x="0" y="37" width="44.5625" height="2" rx="2"/>
+                    </g>
+                </g>
+                <circle id="Oval-93" fill="#101010" filter="url(#filter-8)" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="47.5" cy="114.5" r="4.5"/>
+                <g id="phone" mask="url(#mask-2)">
+                    <g transform="translate(95.000000, 75.000000)">
+                        <rect id="Rectangle-162" fill="#F8F8F8" filter="url(#filter-9)" sketch:type="MSShapeGroup" x="0" y="0" width="38" height="64" rx="3"/>
+                        <rect id="Rectangle-163" fill="#2E2E2E" filter="url(#filter-10)" sketch:type="MSShapeGroup" x="3" y="9" width="33" height="43"/>
+                        <g id="Group-Copy" stroke-width="1" fill="none" sketch:type="MSLayerGroup" transform="translate(7.000000, 15.000000)">
+                            <rect id="Rectangle-46" fill="#3DA7F4" sketch:type="MSShapeGroup" x="0" y="0" width="25" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-9" fill="#FAE493" sketch:type="MSShapeGroup" x="0" y="24" width="26" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy" fill="#FAE493" sketch:type="MSShapeGroup" x="0" y="6" width="8" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-3" fill="#E6F3FF" sketch:type="MSShapeGroup" x="10" y="6" width="15" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-8" fill="#3DA7F4" sketch:type="MSShapeGroup" x="0" y="18" width="2" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-7" fill="#E6F3FF" sketch:type="MSShapeGroup" x="4" y="18" width="10" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-6" fill="#FCA7A1" sketch:type="MSShapeGroup" x="16" y="18" width="10" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-4" fill="#3DF43E" sketch:type="MSShapeGroup" x="0" y="12" width="15" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-17" fill="#FAE493" sketch:type="MSShapeGroup" x="0" y="31" width="8" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-15" fill="#FFE6E6" sketch:type="MSShapeGroup" x="19" y="37" width="4" height="2" rx="2"/>
+                            <rect id="Rectangle-46-Copy-14" fill="#E6F3FF" sketch:type="MSShapeGroup" x="10" y="31" width="16" height="2" rx="2"/>
+                        </g>
+                        <circle id="Oval-138" fill="#F8F8F8" filter="url(#filter-11)" sketch:type="MSShapeGroup" cx="20" cy="57" r="3"/>
+                        <path d="M24.6804744,0 L2.99765987,0 C1.35244012,0 0,1.34359877 0,3.00101185 L0,60.9989882 C0,62.663269 1.34209804,64 2.99765987,64 L8.05709778,64 L24.6804744,-9.1038288e-15 Z" id="Rectangle-162-Copy" fill="url(#linearGradient-12)" filter="url(#filter-13)" sketch:type="MSShapeGroup"/>
+                        <circle id="Oval-139" fill="#1E1E1E" filter="url(#filter-14)" sketch:type="MSShapeGroup" cx="20" cy="5" r="1"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

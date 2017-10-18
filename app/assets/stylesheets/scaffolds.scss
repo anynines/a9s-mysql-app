@@ -1,0 +1,76 @@
+$brand-blue: #505d78;
+$brand-orange: #e4833e;
+$font: Lato, sans-serif;
+$font-weight: 300;
+$font-weight-header: 700;
+$font-size: 100%;
+$line-height: 160%;
+$off-white: #f8f8f8;
+$separator-color: #f2f2f2;
+$gutter: 1rem;
+
+body {
+  background-color: $off-white;
+  color: $brand-blue;
+  font-family: $font;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+p, ol, ul, td {
+  font-family: $font;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+.navbar {
+  background-color: $brand-blue;
+  height: 90px;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: $off-white;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+

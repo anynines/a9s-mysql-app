@@ -1,0 +1,35 @@
+<%- model_class = Post -%>
+<div class="page-header">
+  <h1>MyBlog</h1>
+
+  <div class="actions rAlign">
+    <%= link_to t('.new', :default => t("helpers.links.new")), new_post_path %>
+  </div>
+</div>
+<div class="posts">
+  <% @posts.each do |post| %>
+    <div class="post">
+      <div class="title">
+        <h2><%= link_to post.title, post_path(post) %></h2>
+      </div>
+      <div class="body">
+        <p><%= simple_format truncate(post.body, length: 750) %></p>
+      </div>
+
+      <div class="post-footer">
+        <span class="timestamps">
+          Created at: <%=l post.created_at, format: :my_long %>,
+          Updated at: <%=l post.updated_at, format: :my_long %>
+        </span>
+        <span class="actions">
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                          edit_post_path(post)  %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                          post_path(post),
+                          :method => :delete,
+                          :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
+        </span>
+      </div>
+    </div>
+  <% end %>
+</div>
