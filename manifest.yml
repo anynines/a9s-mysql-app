@@ -5,3 +5,5 @@ applications:
   path: .
   buildpack: https://github.com/cloudfoundry/ruby-buildpack
   command: bundle exec rake db:migrate && bundle exec rails s -p $PORT
+  services:
+    - mysql-service-instance-name
