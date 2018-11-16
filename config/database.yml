@@ -6,15 +6,15 @@ default: &default
 
 development:
   <<: *default
-  database: db/a9s_postgres_app_development
+  database: a9s_mysql_app_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/a9s_postgres_app_test
+  database: a9s_mysql_app_test
 
 production:
   <<: *default
-  database: db/a9s_postgres_app_production
+  database: a9s_mysql_app_production
