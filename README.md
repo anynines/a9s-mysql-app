@@ -1,6 +1,6 @@
 # a9s MySQL sample app
 
-This app implements a very simple blogging app to showcase our a9s MySQL service on CloudFoundry. It is based on [Ruby on Rails](https://rubyonrails.org/) 5.1. The most interesting part is most likely the [manifest](manifest.yml) which is used to give the CF cli information about your app. Please [this page](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) for more information.
+This app implements a very simple blogging app to showcase our a9s MySQL service on CloudFoundry. It is based on [Ruby on Rails](https://rubyonrails.org/) 5.1. The most interesting part is most likely the [manifest](manifest.yml) which is used to give the CF CLI information about your app. Please [this page](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) for more information.
 
 ## Pushing the app CloudFoundry
 
